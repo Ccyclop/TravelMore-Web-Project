@@ -1,0 +1,225 @@
+@media screen and (max-width: 1024px) {
+/* register an login page */
+    header {
+        width: 100%;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    .container-fluid {
+        padding: 0px;
+        justify-content: center!important;
+        align-items: flex-start!important;
+    }
+
+    .nav-reg-log {
+        width: 300px;
+    }
+
+    .reg-login-area-box {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .reg-login {
+        height: 300px;
+    }
+
+    .reg-login-login {
+        width: 90%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .category {
+        height: 20%;
+        width: 100%;
+        padding-top: 20px;
+    }
+
+    .category-choose {
+        border: none;
+    }
+
+    .reg-login-area {
+        width: 90%;
+        height: 100%;
+    }
+
+    .login-form {
+        width: 50%;
+    }
+
+    .navbar-nav {
+        margin-right: 0px!important;
+        margin-left: 10px!important;
+    }
+
+/* index */
+    .navbar {
+        padding-top: 0px;
+    }
+
+    .edit {
+        height: 38px;
+        width: 190px;
+    }
+    
+    .btn-span {
+        transform: scale(0.8);
+    }
+
+    .navbar-brand {
+        margin-left: 10px;
+    }
+
+    .for-you-hotels {
+        flex-direction: column;
+    }
+    .for-you-hotels .card-text {
+        text-align: center;
+        position: absolute;
+        bottom: 50px;
+        color: white;
+        left: 0px;
+        right: 0px;
+        margin: auto;
+    }
+    .for-you-hotels .card-image {
+        position: relative;
+
+    }
+
+    .for-you-title {
+        text-align: center;
+    }
+
+    .most-hotels-title {
+        text-align: center;
+    }
+
+    .most-hotels-content {
+        flex-direction: column;
+    }
+
+    .most-hotels-content .card-text{
+        transform: scale(0.8);
+    }
+
+    .most-hotels-content .card-title{
+        transform: scale(0.8);
+    }
+
+    .most-hotels-content .card-body{
+        padding-top: 0px;
+        flex-direction: column;
+        height: min-content;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .most-hotels-content .card{
+        width: 100%!important;
+        height: min-content;
+    }
+
+    .footer-area {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    footer {
+        padding: 0px;
+    }
+
+    .hotel-area .card-title {
+        text-align: center;
+    }
+
+    .no-hotels {
+        text-align: center;
+    }
+
+    .slider-area .carousel {
+        transform: scaleY(0.8);
+    }
+
+    .slider-area {
+        width: 100%!important;
+        margin: 0px!important;
+    }
+
+    .hotelimage {
+        width: 250px;
+        margin: auto;
+    }
+
+    .book-info {
+        padding: 20px;
+        width: 90%!important;
+    }
+
+    .side-to-side {
+        flex-direction: column;
+    }
+
+    .file-area {
+        width: 100%;
+    }
+
+    .text-area {
+        width: 100%;
+    }
+
+    .dropdown {
+        top: 90px;
+    }
+
+    .reg-login-user {
+        border-top: 2px solid lightgray;
+    }
+
+    .sidebar {
+        float: none;
+        width: 100%;
+        height: 350px;
+    }
+
+    .content {
+        float: none;
+        width: 100%;
+        padding: 20px;
+    }
+
+    .table-title {
+        text-align: center;
+    }
+}
+
+@media screen and (width: 1024px) {
+    footer {
+        margin-bottom: 500px;
+    }
+} 
+
+@media screen and (width: 768px) {
+    footer {
+        margin-bottom: 200px;
+    }
+}
+
+@media screen and (width: 360px) {
+    header {
+        width: 360px;
+    }
+    nav {
+        width: 360px;
+    }
+
+    .for-you-hotels .card {
+        width: 360px!important;
+    }
+}

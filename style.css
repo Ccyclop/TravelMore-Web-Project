@@ -1,0 +1,537 @@
+:root {
+    --font-roboto- : 'Roboto', sans-serif;
+}
+
+
+.reg-login-area {
+    width: 60%;
+    max-width: 1400px;
+    display: flex;
+    align-items: center;
+    height: 800px;
+    margin: auto;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+.reg-login-area-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 70%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 25px;
+    padding: 50px 20px 50px 50px;
+}
+
+.reg-login {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.name-sname {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#regBtn {
+    width: 100%;
+    border-radius: 0px;
+    border: none;
+
+}
+
+.form input {
+    border: none!important;
+    border-bottom: 1px solid lightgray!important;
+    border-radius: 0px!important;
+
+}
+
+.form input:focus {
+    outline: none!important;
+    box-shadow: none!important;
+}
+
+.category {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 40%;
+}
+
+.category-choose {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    border-left: 1px solid gray;
+    width: 90%;
+}
+
+.category-choose .btn {
+    width: 50%!important;
+    border: none!important;
+    border-radius: 0px!important;
+    
+}
+
+.category-choose .btn:nth-child(2) {
+    margin-bottom: 30px;
+}
+
+.category-choose button.active {
+    background-color: #0d6efd!important;
+    color: white!important;
+}
+
+.btn:focus {
+    box-shadow: none!important;
+    outline: none!important;
+}
+
+.form h1 {
+    color: #0d6efd!important;
+}
+
+.category-choose p {
+    margin-top: 10px;
+}
+
+.category {
+    justify-content: center;
+}
+
+.btn-warning {
+    color: white!important;
+}
+
+#logIn {
+    border: none;
+    background-color: transparent;
+    color: blue;
+    text-decoration: underline blue;
+}
+
+.for-you {
+    margin: auto;
+
+}
+
+.nav-reg-log {
+    justify-content: space-around;
+    align-items: center;
+    width: max-content;
+}
+
+.nav-reg-log button {
+    margin: 0px 10px;
+}
+
+header {
+    height: 100px;
+    position: fixed!important;
+    z-index: 2;
+    width: 100%;
+}
+
+nav {
+    height: 100px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px, rgb(255, 85, 85) 0px 0px 0px 15px;
+}
+
+.navbar-brand {
+    margin-left: 50px;
+}
+
+.user {
+    border: 1px solid lightgray;
+    justify-content: center;
+    align-items: center;   
+    width: 150px;
+    height: 40px; 
+    transition-duration: 0.4s;
+}
+
+.user:hover {
+    background-color: lightgray;
+    color: white;
+}
+
+.dropdown {
+    display: none;
+    background-color: lightgray;
+    transition-duration: 0.4s;
+    position: fixed;
+    top: 70px;
+    right: 0px;
+    height: min-content;
+    width: 250px;
+    animation-name: dropdown;
+    animation-timing-function: ease;
+    animation-duration: 1s;
+}
+
+@keyframes dropdown {
+    0% {
+        z-index: -1;
+        background-color: transparent;
+        right: -100px;
+        
+    }
+    100% {
+        z-index: 1;
+        background-color: lightgray;
+        right: 0px;
+        
+    }
+}
+
+.user:hover .dropdown {
+    display: block;
+}
+
+.index-list-group {
+    display: flex!important;
+    flex-direction: column!important;
+    width: 80%!important;
+    height: 100%!important;
+    border: none!important;
+    border-radius: 0px!important;
+    margin: auto!important;
+    background-color: transparent!important;
+}
+
+.index-list-group-item {
+    border-top: none!important;
+    border-right: none!important;
+    border-left: none!important;
+    text-align: center!important;
+    width: 100%!important;
+    cursor: pointer;
+    background-color: transparent!important;
+    color: white!important;
+    border-bottom: dotted white!important;
+}
+
+.index-list-group-item:last-child{
+    border-bottom: none!important;
+}
+
+.user i {
+    margin-right: 10px;
+}
+
+.username {
+    margin: 0px!important;
+}
+
+.for-you-hotels {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.most-hotels-content {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.most-hotels-content .card {
+    width: 25rem!important;
+    height: 350px;
+    border: none!important;
+}
+
+.second {
+    flex-direction: column!important;
+    padding: 20px 20px 20px 20px!important;
+    height: 80%!important;
+}
+
+.btn-width {
+    width: 100%;
+}
+
+.side-to-side {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+.text-area {
+    width: 45%;
+
+}
+
+.file-area {
+    width: 45%;
+    height: 374px;
+}
+
+.second input {
+    border: none!important;
+    border-bottom: 1px solid lightgray!important;
+    border-radius: 0px;
+}
+
+.second input:focus {
+    box-shadow: none!important;
+    outline: none!important;
+}
+
+.carousel {
+    height: 800px!important;
+}
+
+
+
+.carousel-inner {
+    height: 100%;
+}
+
+.carousel-area {
+    height: 800px;
+    position: relative;
+}
+
+.carousel-item img {
+    height: 800px;
+    object-fit: cover;
+}
+
+.for-you-hotels .card img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.for-you-hotels .card {
+    width: 25rem!important;
+    border: none!important;
+}
+
+.spinner {
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(32, 32, 32, 0.9);
+    inset: 0px;
+}
+
+.spinner-border {
+    width: 10rem!important;
+    height: 10rem!important;
+    border-width: 1.25rem!important;
+    border-color: teal!important;
+    border-right-color: transparent!important;
+}
+
+.display-none {
+    display: none!important;
+}
+
+.display-block {
+    display: flex!important;
+}
+
+footer {
+    width: 100%;
+    height: 300px;
+    margin-top: 200px;
+    padding: 50px 20px 20px;
+    background-color: whitesmoke;
+    box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px, rgb(255, 85, 85) 0px 0px 0px 15px;
+}
+
+.footer-area {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 50%;
+}
+
+.contact-info a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar-brand, .nav-link, .btn-span, .btn[type=submit], .username {
+    font-family: var(--font-roboto-);
+
+}
+
+.for-you-hotels .card img:hover {
+    transform: scale(1.2);
+}
+
+.for-you-hotels .card-image {
+    overflow: hidden;
+}
+
+.for-you-hotels .card-image img {
+    transition-duration: 0.4s;
+}
+
+.sidebar {
+    width: 20%;
+    height: 937px;
+    float: left;
+    padding: 50px;
+    background-color: rgba(19, 19, 19, 0.863);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    width: 80%;
+    height: 900px;
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.content table {
+    width: 80%;
+    margin: auto;
+}
+
+.list-group {
+    border: none!important;
+    background: transparent;
+}
+
+.list-group-item {
+    border: none!important;
+    color: #0d6efd;
+    background: transparent;
+    cursor: pointer;
+}
+
+.user-edit-area {
+    height: 937px;
+}
+
+.input-place {
+    padding-top: 120px!important;
+    padding-bottom: 120px!important;
+}
+
+.input-place input:focus {
+    box-shadow: none!important;
+    outline: none!important;
+
+}
+
+.input-place input {
+    border-width: 8px!important;
+    background-color: rgba(100, 100, 111, 0.2);
+}
+
+.hotel-area .card {
+    width: 540px!important;
+
+}
+
+.hotel-area .card img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.cover-image-area img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hotel-info-content {
+    width: 80%;
+    padding-top: 12rem!important;
+}
+
+.other-than-descritpion {
+    width: 40%;
+}
+
+.description-area {
+    width: 40%;
+}
+
+.hotelimage {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    right: 0px;
+    left: 0px;
+    margin: auto;
+    top: -200px;
+    z-index: 1;
+}
+
+.hotelimage img {
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+}
+
+.hotel-info {
+    position: relative;
+}
+
+.cover-image-area {
+    height: 500px;
+}
+
+.book-info {
+    padding: 50px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.book-info input {
+    margin-bottom: 10px;
+}
+
+.select {
+    text-align: center;
+}
+
+.hotel-area .card {
+    height: 290px;
+}
+
+.hotel-area .card img {
+    width: 100%;
+    height: 289px;
+    object-fit: cover;
+}
