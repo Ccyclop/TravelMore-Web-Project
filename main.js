@@ -35,7 +35,7 @@ function addBtnFunction() {
 }
 
 window.addEventListener('load', function () {
-    if (window.location.href.split("/").pop() == "index.html") {
+    if (window.location.href.split("/").pop() == "index.html" || window.location.href.split("/").pop() == "") {
         if (localStorage['user'] != undefined) {
             if (localStorage['status'] == "Developer") {
                 window.location.href = "./cmr.html"
@@ -781,7 +781,7 @@ function insertInHotelArea(hotelimage, hotelname, region, bedquantity, price, ow
         }
     }
 
-    var card = `<div class="card mb-5" id="${id}">
+    var card = `<div class="card mb-5 responsive-card" id="${id}">
     <div class="row g-0">
       <div class="col-md-5">
         <img src="${hotelimage}" alt="...">

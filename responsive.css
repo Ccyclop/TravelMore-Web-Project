@@ -68,7 +68,7 @@
     }
     
     .btn-span {
-        transform: scale(0.8);
+        font-size: 10.5px;
     }
 
     .navbar-brand {
@@ -196,6 +196,14 @@
 
     .table-title {
         text-align: center;
+    }
+    
+    #addBtn {
+        padding: 2px;
+    }
+
+    .responsive-card {
+        margin-bottom: 250px!important;
     }
 }
 
