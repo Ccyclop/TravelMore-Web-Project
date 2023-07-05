@@ -3,7 +3,7 @@
 Used: html, css, JavaScript, sweet Alert, rapidAPI News Api, bootstrap
 In this web app user can add, view and book hotels:
 
-•	##index.html## - This is the main page of this web app.
+•	index.html - This is the main page of this web app.
 
  
 •	register.html - This is the page where user can register as an User os as a Developer.
